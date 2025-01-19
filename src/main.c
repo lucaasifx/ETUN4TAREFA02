@@ -1,5 +1,5 @@
 #include "pico/stdlib.h"
-#include"hardware/pwm.h"
+#include "hardware/pwm.h"
 #include "pico/bootrom.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -82,7 +82,8 @@ int main() {
                 disable_all_gpios_except(gpios_task.used_gpios, LED_GREEN);
                 break;
             case 2:
-
+                turn_led_on(LED_BLUE);
+                disable_all_gpios_except(gpios_task.used_gpios, LED_BLUE);
                 break;
             case 3:
 

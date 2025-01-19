@@ -97,9 +97,6 @@ int main() {
 
                 break;
             case 6:                
-                turn_led_off(LED_RED);
-                turn_led_off(LED_GREEN);
-                turn_led_off(LED_BLUE);
                 beep(BUZZER01, 2000);
                 break;
             case 7:

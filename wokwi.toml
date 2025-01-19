@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/ETUN04TAREFA02.uf2'
+elf = 'build/ETUN04TAREFA02.elf'

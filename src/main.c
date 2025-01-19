@@ -99,7 +99,8 @@ int main() {
                 turn_led_off(LED_GREEN);
                 turn_led_off(LED_BLUE);
                 break;
-            case 6:
+            case 6:                
+                beep(BUZZER01, 2000);
                 break;
             case 7:
                 // ativa o modo BOOTSEL

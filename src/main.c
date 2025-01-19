@@ -100,6 +100,8 @@ int main() {
             case 6:
                 break;
             case 7:
+                // ativa o modo BOOTSEL
+                reset_usb_boot(0,0);
                 break;
             default:
                 break;

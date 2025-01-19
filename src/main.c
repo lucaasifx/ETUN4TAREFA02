@@ -86,7 +86,8 @@ int main() {
                 disable_all_gpios_except(gpios_task.used_gpios, LED_BLUE);
                 break;
             case 3:
-
+                turn_led_on(LED_RED);
+                disable_all_gpios_except(gpios_task.used_gpios, LED_RED);
                 break;
             case 4:
                 turn_led_on(LED_RED);

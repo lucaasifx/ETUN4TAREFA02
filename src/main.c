@@ -95,7 +95,9 @@ int main() {
                 turn_led_on(LED_BLUE);
                 break;
             case 5:
-
+                turn_led_off(LED_RED);
+                turn_led_off(LED_GREEN);
+                turn_led_off(LED_BLUE);
                 break;
             case 6:
                 break;

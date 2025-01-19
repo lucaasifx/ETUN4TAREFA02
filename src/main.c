@@ -94,7 +94,6 @@ int main() {
 
                 break;
             case 6:
-                beep(BUZZER01, 2000);
                 break;
             case 7:
                 reset_usb_boot(0, 0);

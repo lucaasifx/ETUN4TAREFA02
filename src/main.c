@@ -88,7 +88,9 @@ int main() {
 
                 break;
             case 4:
-
+                turn_led_on(LED_RED);
+                turn_led_on(LED_GREEN);
+                turn_led_on(LED_BLUE);
                 break;
             case 5:
 

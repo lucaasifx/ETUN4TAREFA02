@@ -78,6 +78,8 @@ int main() {
         switch (opc) {
             // exemplo
             case 1:
+                turn_led_on(LED_GREEN);
+                disable_all_gpios_except(gpios_task.used_gpios, LED_GREEN);
                 break;
             case 2:
                 turn_led_on(LED_BLUE);
